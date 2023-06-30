@@ -15,6 +15,17 @@
 
   <button onclick="countCliks()">Click me</button>
 
+  <script>
+    function printHtml(msg = '--iveskite zinute--') {
+      // sukurem
+      let h2El = document.createElement('p');
+      // prideti i ji texsta
+      h2El.textContent = msg;
+      // console.log('h2El ===', h2El);
+      // patalpinti ji i body
+      document.body.append(h2El);
+    }
+  </script>
 </body>
 
 </html>
