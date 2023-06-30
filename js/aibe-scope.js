@@ -32,6 +32,8 @@ function sum(a, b) {
 sum(5, 7);
 console.log('result ===', result);
 
+let clickNum = 0;
 function countCliks() {
-  console.log('1');
+  clickNum++;
+  console.log(clickNum);
 }
