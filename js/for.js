@@ -35,6 +35,23 @@ for (let i = 0; i <= 50; i++) {
 
 // atspausinti su for ciklu skaicius nuo 87 iki 16
 for (let i = 87; i >= 16; i--) {
-  console.log('i ===', i);
+  // console.log('i ===', i);
   printHtml(`Labas ${i}`);
 }
+
+// sukurti cikla kad atspausdinti sk nuo 55 iki 0
+for (let idx = 55; idx >= 0; idx--) {
+  // console.log('idx ===', idx);
+}
+//  sukurti cikla kad atspausdinti sk nuo 18 iki 99
+for (let l = 18; l < 100; l++) {
+  // console.log('l ===', l);
+}
+//  sukurti cikla kad atspausdinti sk nuo 18 iki 99 kas 6
+for (let l = 18; l < 100; l = l + 6) {
+  console.log('l ===', l);
+}
+
+let x = 5;
+x = x + 10;
+console.log('x ===', x);
