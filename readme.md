@@ -1,5 +1,7 @@
 # Ciklai
 
+### pasiziureti uzduotis is skaidriu!
+
 ## uzduotys #1
 
 1. parasyti funkcija kuri sugeneruoja ir atspausdina consoleje skaicius nuo 22 iki 70.
